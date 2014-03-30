@@ -21,6 +21,7 @@
 		6EA0768518E8B9AD002E503F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA0766718E8B9AD002E503F /* UIKit.framework */; };
 		6EA0768D18E8B9AD002E503F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0768B18E8B9AD002E503F /* InfoPlist.strings */; };
 		6EA0768F18E8B9AD002E503F /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0768E18E8B9AD002E503F /* Git_TestTests.m */; };
+		6EA0769A18E8CB97002E503F /* CIATest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0769918E8CB97002E503F /* CIATest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6EA0768A18E8B9AD002E503F /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		6EA0768C18E8B9AD002E503F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EA0768E18E8B9AD002E503F /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		6EA0769818E8CB97002E503F /* CIATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIATest.h; sourceTree = "<group>"; };
+		6EA0769918E8CB97002E503F /* CIATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIATest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				6EA0767318E8B9AD002E503F /* CIAAppDelegate.m */,
 				6EA0767518E8B9AD002E503F /* Main.storyboard */,
 				6EA0767818E8B9AD002E503F /* CIAViewController.h */,
+				6EA0769818E8CB97002E503F /* CIATest.h */,
+				6EA0769918E8CB97002E503F /* CIATest.m */,
 				6EA0767918E8B9AD002E503F /* CIAViewController.m */,
 				6EA0767B18E8B9AD002E503F /* Images.xcassets */,
 				6EA0766A18E8B9AD002E503F /* Supporting Files */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EA0767A18E8B9AD002E503F /* CIAViewController.m in Sources */,
+				6EA0769A18E8CB97002E503F /* CIATest.m in Sources */,
 				6EA0767418E8B9AD002E503F /* CIAAppDelegate.m in Sources */,
 				6EA0767018E8B9AD002E503F /* main.m in Sources */,
 			);
